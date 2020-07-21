@@ -25,7 +25,7 @@ body{
   margin-top: 30px;
   background-color: lightblue;
   max-width: 80%;
-  height: 80vh;
+  height: 70vh;
   border-radius: 10px;
   scroll-behavior: smooth;
   overflow-y: scroll;
@@ -65,7 +65,7 @@ margin-top: 50px;
 }
 #messageinp{
   width: 75%;
-  height: 54px;
+  height: 64px;
   border: none;
   /* backface-visibility: hidden; */
 
@@ -78,8 +78,8 @@ margin-top: 50px;
   border: none; /* Remove borders */
   /* color: green; /* White text */
   /* padding: 50px 10px; /* Some padding */
-  height: 44px;
-  width:  44px;
+  height: 54px;
+  width:  54px;
   font-size: 16px; /* Set a font size */
   cursor: pointer; /* Mouse pointer on hover */
   border-radius: 50%;
