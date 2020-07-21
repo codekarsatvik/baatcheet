@@ -1,5 +1,5 @@
 body{
-  background-image: url('https://raw.githubusercontent.com/codekarsatvik/baatcheet/master/images/bg.jpg');
+  background-image: url('bg1.jpg');
 }
 .logo{
   /* display: block;
@@ -13,6 +13,7 @@ body{
   color: White;
   font-style: italic;
   padding: 10px;
+  font-weight: bolder;
 }
 .logoimage{
   width: 150px;
@@ -22,13 +23,14 @@ body{
   padding: 10px;
   display: block;
   margin: auto;
-  margin-top: 30px;
+  margin-top: 50px;
   background-color: lightblue;
   max-width: 80%;
   height: 70vh;
   border-radius: 10px;
   scroll-behavior: smooth;
   overflow-y: scroll;
+  opacity: 0.8;
   /* overflow: scroll; */
 
 
@@ -40,6 +42,7 @@ body{
   display: inline-block;
   margin: 10px;
   max-width: 60%;
+  opacity: 1;
 }
 .left{
   float: left;
@@ -64,8 +67,8 @@ margin-top: 50px;
   text-align: center;
 }
 #messageinp{
-  width: 75%;
-  height: 64px;
+  width: 74%;
+  height: 70px;
   border: none;
   /* backface-visibility: hidden; */
 
@@ -74,12 +77,12 @@ margin-top: 50px;
   border-radius: 25px;
 }
 .btnn {
-  background-color: DodgerBlue; /* Blue background */
+  background-color: RoyalBlue; /* Blue background */
   border: none; /* Remove borders */
   /* color: green; /* White text */
   /* padding: 50px 10px; /* Some padding */
-  height: 54px;
-  width:  54px;
+  height: 60px;
+  width:  60px;
   font-size: 16px; /* Set a font size */
   cursor: pointer; /* Mouse pointer on hover */
   border-radius: 50%;

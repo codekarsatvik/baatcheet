@@ -1,5 +1,7 @@
+var audio = new Audio('js/ting.mp3');
 const socket = io('http://localhost:8000');
-var audio = new Audio('/images/ting.mp3');
+audio.play();
+
 
 const form = document.getElementById('send-form');
 const messageinput = document.getElementById('messageinp');
@@ -17,6 +19,7 @@ const append = (message,position)=>{
   if(position!='right'){
     audio.play();
     muted = "muted";
+
 
   }
 
